@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE01DFB41EEAD33100CF5993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01DFB31EEAD33100CF5993 /* AppDelegate.swift */; };
+		EE01DFB61EEAD33100CF5993 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EE01DFB51EEAD33100CF5993 /* art.scnassets */; };
+		EE01DFB81EEAD33100CF5993 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01DFB71EEAD33100CF5993 /* GameViewController.swift */; };
+		EE01DFBB1EEAD33100CF5993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE01DFB91EEAD33100CF5993 /* Main.storyboard */; };
+		EE01DFBD1EEAD33100CF5993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE01DFBC1EEAD33100CF5993 /* Assets.xcassets */; };
+		EE01DFC01EEAD33100CF5993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE01DFBE1EEAD33100CF5993 /* LaunchScreen.storyboard */; };
+		EE01DFCB1EEAD33200CF5993 /* one3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01DFCA1EEAD33200CF5993 /* one3DTests.swift */; };
+		EE01DFD61EEAD33200CF5993 /* one3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01DFD51EEAD33200CF5993 /* one3DUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE01DFC71EEAD33200CF5993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE01DFA81EEAD33100CF5993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE01DFAF1EEAD33100CF5993;
+			remoteInfo = one3D;
+		};
+		EE01DFD21EEAD33200CF5993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE01DFA81EEAD33100CF5993 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE01DFAF1EEAD33100CF5993;
+			remoteInfo = one3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE01DFB01EEAD33100CF5993 /* one3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = one3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE01DFB31EEAD33100CF5993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE01DFB51EEAD33100CF5993 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		EE01DFB71EEAD33100CF5993 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EE01DFBA1EEAD33100CF5993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE01DFBC1EEAD33100CF5993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE01DFBF1EEAD33100CF5993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE01DFC11EEAD33100CF5993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE01DFC61EEAD33200CF5993 /* one3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = one3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE01DFCA1EEAD33200CF5993 /* one3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one3DTests.swift; sourceTree = "<group>"; };
+		EE01DFCC1EEAD33200CF5993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE01DFD11EEAD33200CF5993 /* one3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = one3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE01DFD51EEAD33200CF5993 /* one3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = one3DUITests.swift; sourceTree = "<group>"; };
+		EE01DFD71EEAD33200CF5993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE01DFAD1EEAD33100CF5993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01DFC31EEAD33200CF5993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01DFCE1EEAD33200CF5993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE01DFA71EEAD33100CF5993 = {
+			isa = PBXGroup;
+			children = (
+				EE01DFB21EEAD33100CF5993 /* one3D */,
+				EE01DFC91EEAD33200CF5993 /* one3DTests */,
+				EE01DFD41EEAD33200CF5993 /* one3DUITests */,
+				EE01DFB11EEAD33100CF5993 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE01DFB11EEAD33100CF5993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE01DFB01EEAD33100CF5993 /* one3D.app */,
+				EE01DFC61EEAD33200CF5993 /* one3DTests.xctest */,
+				EE01DFD11EEAD33200CF5993 /* one3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE01DFB21EEAD33100CF5993 /* one3D */ = {
+			isa = PBXGroup;
+			children = (
+				EE01DFB31EEAD33100CF5993 /* AppDelegate.swift */,
+				EE01DFB71EEAD33100CF5993 /* GameViewController.swift */,
+				EE01DFB91EEAD33100CF5993 /* Main.storyboard */,
+				EE01DFB51EEAD33100CF5993 /* art.scnassets */,
+				EE01DFBC1EEAD33100CF5993 /* Assets.xcassets */,
+				EE01DFBE1EEAD33100CF5993 /* LaunchScreen.storyboard */,
+				EE01DFC11EEAD33100CF5993 /* Info.plist */,
+			);
+			path = one3D;
+			sourceTree = "<group>";
+		};
+		EE01DFC91EEAD33200CF5993 /* one3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE01DFCA1EEAD33200CF5993 /* one3DTests.swift */,
+				EE01DFCC1EEAD33200CF5993 /* Info.plist */,
+			);
+			path = one3DTests;
+			sourceTree = "<group>";
+		};
+		EE01DFD41EEAD33200CF5993 /* one3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE01DFD51EEAD33200CF5993 /* one3DUITests.swift */,
+				EE01DFD71EEAD33200CF5993 /* Info.plist */,
+			);
+			path = one3DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE01DFAF1EEAD33100CF5993 /* one3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE01DFDA1EEAD33200CF5993 /* Build configuration list for PBXNativeTarget "one3D" */;
+			buildPhases = (
+				EE01DFAC1EEAD33100CF5993 /* Sources */,
+				EE01DFAD1EEAD33100CF5993 /* Frameworks */,
+				EE01DFAE1EEAD33100CF5993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = one3D;
+			productName = one3D;
+			productReference = EE01DFB01EEAD33100CF5993 /* one3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE01DFC51EEAD33200CF5993 /* one3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE01DFDD1EEAD33200CF5993 /* Build configuration list for PBXNativeTarget "one3DTests" */;
+			buildPhases = (
+				EE01DFC21EEAD33200CF5993 /* Sources */,
+				EE01DFC31EEAD33200CF5993 /* Frameworks */,
+				EE01DFC41EEAD33200CF5993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE01DFC81EEAD33200CF5993 /* PBXTargetDependency */,
+			);
+			name = one3DTests;
+			productName = one3DTests;
+			productReference = EE01DFC61EEAD33200CF5993 /* one3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE01DFD01EEAD33200CF5993 /* one3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE01DFE01EEAD33200CF5993 /* Build configuration list for PBXNativeTarget "one3DUITests" */;
+			buildPhases = (
+				EE01DFCD1EEAD33200CF5993 /* Sources */,
+				EE01DFCE1EEAD33200CF5993 /* Frameworks */,
+				EE01DFCF1EEAD33200CF5993 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE01DFD31EEAD33200CF5993 /* PBXTargetDependency */,
+			);
+			name = one3DUITests;
+			productName = one3DUITests;
+			productReference = EE01DFD11EEAD33200CF5993 /* one3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE01DFA81EEAD33100CF5993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "覃子轩";
+				TargetAttributes = {
+					EE01DFAF1EEAD33100CF5993 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					EE01DFC51EEAD33200CF5993 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE01DFAF1EEAD33100CF5993;
+					};
+					EE01DFD01EEAD33200CF5993 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE01DFAF1EEAD33100CF5993;
+					};
+				};
+			};
+			buildConfigurationList = EE01DFAB1EEAD33100CF5993 /* Build configuration list for PBXProject "one3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE01DFA71EEAD33100CF5993;
+			productRefGroup = EE01DFB11EEAD33100CF5993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE01DFAF1EEAD33100CF5993 /* one3D */,
+				EE01DFC51EEAD33200CF5993 /* one3DTests */,
+				EE01DFD01EEAD33200CF5993 /* one3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE01DFAE1EEAD33100CF5993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE01DFB61EEAD33100CF5993 /* art.scnassets in Resources */,
+				EE01DFC01EEAD33100CF5993 /* LaunchScreen.storyboard in Resources */,
+				EE01DFBD1EEAD33100CF5993 /* Assets.xcassets in Resources */,
+				EE01DFBB1EEAD33100CF5993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01DFC41EEAD33200CF5993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01DFCF1EEAD33200CF5993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE01DFAC1EEAD33100CF5993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE01DFB81EEAD33100CF5993 /* GameViewController.swift in Sources */,
+				EE01DFB41EEAD33100CF5993 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01DFC21EEAD33200CF5993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE01DFCB1EEAD33200CF5993 /* one3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE01DFCD1EEAD33200CF5993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE01DFD61EEAD33200CF5993 /* one3DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE01DFC81EEAD33200CF5993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE01DFAF1EEAD33100CF5993 /* one3D */;
+			targetProxy = EE01DFC71EEAD33200CF5993 /* PBXContainerItemProxy */;
+		};
+		EE01DFD31EEAD33200CF5993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE01DFAF1EEAD33100CF5993 /* one3D */;
+			targetProxy = EE01DFD21EEAD33200CF5993 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE01DFB91EEAD33100CF5993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE01DFBA1EEAD33100CF5993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE01DFBE1EEAD33100CF5993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE01DFBF1EEAD33100CF5993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE01DFD81EEAD33200CF5993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE01DFD91EEAD33200CF5993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE01DFDB1EEAD33200CF5993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = one3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.one3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE01DFDC1EEAD33200CF5993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = one3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.one3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE01DFDE1EEAD33200CF5993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = one3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.one3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/one3D.app/one3D";
+			};
+			name = Debug;
+		};
+		EE01DFDF1EEAD33200CF5993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = one3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.one3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/one3D.app/one3D";
+			};
+			name = Release;
+		};
+		EE01DFE11EEAD33200CF5993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = one3DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.one3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = one3D;
+			};
+			name = Debug;
+		};
+		EE01DFE21EEAD33200CF5993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = one3DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = aiesst.one3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = one3D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE01DFAB1EEAD33100CF5993 /* Build configuration list for PBXProject "one3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE01DFD81EEAD33200CF5993 /* Debug */,
+				EE01DFD91EEAD33200CF5993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE01DFDA1EEAD33200CF5993 /* Build configuration list for PBXNativeTarget "one3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE01DFDB1EEAD33200CF5993 /* Debug */,
+				EE01DFDC1EEAD33200CF5993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE01DFDD1EEAD33200CF5993 /* Build configuration list for PBXNativeTarget "one3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE01DFDE1EEAD33200CF5993 /* Debug */,
+				EE01DFDF1EEAD33200CF5993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE01DFE01EEAD33200CF5993 /* Build configuration list for PBXNativeTarget "one3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE01DFE11EEAD33200CF5993 /* Debug */,
+				EE01DFE21EEAD33200CF5993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE01DFA81EEAD33100CF5993 /* Project object */;
+}
