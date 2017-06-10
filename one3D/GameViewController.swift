@@ -12,9 +12,22 @@ import SceneKit
 
 class GameViewController: UIViewController {
 
+    fileprivate var scnView:SCNView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.testShow()
+        
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Release any cached data, images, etc that aren't in use.
+    }
+    
+    /// 展现一张3D模型
+    private func testShow() {
         // 创建一个屏幕
         let scene = SCNScene(named: "art.scnassets/ship.scn")!//SCNScene(named: "art.scnassets/file.dae")!
         
@@ -39,34 +52,32 @@ class GameViewController: UIViewController {
         scene.rootNode.addChildNode(ambientLightNode)
         
         // 取得飞船节点
-//        let ship = scene.rootNode.childNode(withName: "ship", recursively: true)!
-//        
-//        // 给3D飞船一个运动动画
-//        ship.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 1)))
+        //        let ship = scene.rootNode.childNode(withName: "ship", recursively: true)!
+        //
+        //        // 给3D飞船一个运动动画
+        //        ship.runAction(SCNAction.repeatForever(SCNAction.rotateBy(x: 0, y: 2, z: 0, duration: 1)))
         
         // 取得一个SCNView
-        let scnView = self.view as! SCNView
+        //let scnView = self.view as! SCNView
+        self.scnView = SCNView.init(frame: CGRect.init(x: 100, y: 100, width: 100, height: 100))
         
         // 设置场景到这个view中
-        scnView.scene = scene
+        self.scnView.scene = scene
         
         // 允许用户去操作摄像机
-        scnView.allowsCameraControl = true
+        self.scnView.allowsCameraControl = true
         
         // 展现fps和timing数据信息
-        scnView.showsStatistics = true
+        self.scnView.showsStatistics = true
         
         // 设置view的背景色
-        scnView.backgroundColor = UIColor.orange
+        self.scnView.backgroundColor = UIColor.orange
         
         // 设置点击手势
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
-        scnView.addGestureRecognizer(tapGesture)
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
+        self.scnView.addGestureRecognizer(tapGesture)
+        
+        self.view.addSubview(self.scnView)
     }
 
 }
@@ -80,11 +91,11 @@ extension GameViewController {
     @objc fileprivate func handleTap(_ gestureRecognize: UIGestureRecognizer) {
         print("Hello tap!!!!!")
         // 取得SCNView
-        let scnView = self.view as! SCNView
+        //let scnView = scnView
         
         // 检查被点击
-        let p = gestureRecognize.location(in: scnView)
-        let hitResults = scnView.hitTest(p, options: [:])
+        let p = gestureRecognize.location(in: self.scnView)
+        let hitResults = self.scnView.hitTest(p, options: [:])
         // 检查点击次数
         if hitResults.count > 0 {
             // 检索第一个被点击的对像
